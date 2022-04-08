@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+
+    </style>
+    <script>
+
+        function changeRange(){
+            var r = parseInt(document.getElementById("r").value);
+            var g = parseInt(document.getElementById("g").value);
+            var b = parseInt(document.getElementById("b").value);
+
+            var color = "#" + hex(r) + hex(g) + hex(b);
+
+            document.getElementById("script").style.color = color;
+            document.getElementById("hex-label").innerText = color;
+            document.getElementById("r-label").innerText = r;
+            document.getElementById("g-label").innerText = g;
+            document.getElementById("b-label").innerText = b;
+        }
+
+        function hex(v){
+            var hex = v.toString(16);
+            if (v < 16){
+                hex = "0" + hex;
+            }
+            return hex;
+        }
+
+    </script>
+</head>
+
+<body>
+    
+
+
+     <h1 id="StartText">Backround Colors --></h1>
+     <input type="button" id="BackroundSelectorButton" onclick="Backroundbuttonclick()">
+     <input type="button" id="BackroundSelectorButton2" onclick="Backroundbuttonclick2()">
+    <input type="button" id="BackroundSelectorButton3" onclick="Backroundbuttonclick3()">
+     <input type="button" id="BackroundSelectorButton4" onclick="Backroundbuttonclick4()">
+     <input type="button" id="BackroundSelectorButton5" onclick="Backroundbuttonclick5()">
+    <input type="button" id="ColorSelectorButton" onclick="Colorbuttonclick()">
+    <input type="button" id="ColorSelectorButton2" onclick="Colorbuttonclick2()">
+    <input type="button" id="ColorSelectorButton3" onclick="Colorbuttonclick3()">
+    <input type="button" id="ColorSelectorButton4" onclick="Colorbuttonclick4()">
+    <input type="button" id="ColorSelectorButton5" onclick="Colorbuttonclick5()">
+    <input type="button" id="ColorSelectorButton6" onclick="Colorbuttonclick6()">
+    
+    <div id="NavBar"></div>
+      <div id="Backround"></div>
+     
+     <textarea id="script" rows="5" cols="33" placeholder="Start Typing Script Here"></textarea>
+    <script src="Main.js"></script> 
+        
+    <div id="container">
+
+  <table>
+        <tr>
+            <th>Red</th>
+            <th>Green</th>
+            <th>Blue</th>
+        </tr>
+        <tr>
+            <td><input type="range" min="0" max="255" value="255" id="r" onchange="changeRange()"></td>
+            <td><input type="range" min="0" max="255" value="255" id="g" onchange="changeRange()"></td>
+            <td><input type="range" min="0" max="255" value="255" id="b" onchange="changeRange()"></td>
+        <tr>
+            <tr>
+                <td id="r-label">255</td>
+                <td id="g-label">255</td>
+                <td id="b-label">255</td>
+            <tr>    
+   </table>
+     <h1 id="hex-label">#ffffff</h1>
+ <div>
+     
+</body>
+</html>

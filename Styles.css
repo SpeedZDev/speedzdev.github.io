@@ -1,0 +1,180 @@
+#Backround{
+    background-color:white;
+    z-index: 0;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+
+    
+}
+
+
+#ColorSelectorButton{
+   background-color:blue;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 730px;
+    color: red;
+}
+
+
+#NavBar{
+    width: 60px;
+    height: 85px;
+    background-color: grey;
+    width: 100%;
+    position: fixed;
+   z-index: 1;
+}
+
+
+
+#script{
+    width: 100%;
+    position: relative;
+    bottom: -160px;
+    z-index: 1;
+    color: black;
+   background-color: transparent;
+}
+
+
+
+#script:focus{
+  outline-color: blue;
+
+}
+
+#ColorSelectorButton2{
+    background-color:red;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 53px;
+    position: fixed;
+    bottom: 730px;
+    color: red;
+}
+
+#ColorSelectorButton3{
+    background-color:green;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 103px;
+    position: fixed;
+    bottom: 730px;
+    color: green;
+}
+
+#ColorSelectorButton4{
+    background-color:yellow;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 153px;
+    position: fixed;
+    bottom: 730px;
+    color: yellow;
+}
+
+#StartText{
+    position: fixed;
+    bottom: 700px;
+    left: 250px;
+    z-index: 300;
+}
+
+#BackroundSelectorButton{
+    background-color:black;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 553px;
+    position: fixed;
+    bottom: 730px;
+    color: black;
+}
+
+#ColorSelectorButton5{
+    background-color:black;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 203px;
+    position: fixed;
+    bottom: 730px;
+    color: white;
+}
+
+#BackroundSelectorButton2{
+    background-color:white;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 603px;
+    position: fixed;
+    bottom: 730px;
+    color: black;
+}
+
+#BackroundSelectorButton3{
+    background-color:gold;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 603px;
+    position: fixed;
+    bottom: 730px;
+    color: gold;
+}
+
+#ColorSelectorButton6{
+    background-color:pink;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 653px;
+    position: fixed;
+    bottom: 730px;
+    color: pink;
+}
+
+#BackroundSelectorButton4{
+    background-color: purple;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 703px;
+    position: fixed;
+    bottom: 730px;
+    color:  purple;
+}
+
+#BackroundSelectorButton5{
+    background-color: white;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    left: 753px;
+    position: fixed;
+    bottom: 730px;
+    color:  white;
+}
+
+#container{
+    z-index: 500;
+    color: darkblue;
+    position: fixed;
+    height: 25px;
+    top: 40px;
+    
+}
+
+#hex-label{
+    position: fixed;
+    top: 35px;
+    right: 410px;
+}
